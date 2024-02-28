@@ -1,6 +1,6 @@
 CC = clang
 CFLAGS = -Wall -Wextra
-SRC = main.c
+SRC = main.c alib.c 
 EXEC = out
 
 all: $(EXEC)
